@@ -1,0 +1,9 @@
+event_id,timestamp,source,event_type,user,device,ip_address,description
+E101,2026-10-10T10:00:00Z,Authentication,unusual_login,alex,WS-014,198.51.100.24,Login from a new location flagged by the identity system
+E102,2026-10-10T10:05:00Z,Audit,permission_change,alex,WS-014,198.51.100.24,Account permissions were modified
+E103,2026-10-10T10:12:00Z,File Monitor,sensitive_file_access,alex,WS-014,198.51.100.24,Several restricted files were accessed
+E104,2026-10-10T10:20:00Z,Endpoint,security_alert,alex,WS-014,198.51.100.24,Endpoint security alert raised
+E105,2026-10-10T10:45:00Z,Authentication,successful_login,mira,LAP-002,203.0.113.19,Normal login from a known device
+E106,2026-10-10T11:10:00Z,Application,session_timeout,mira,LAP-002,203.0.113.19,User session timed out
+E107,2026-10-10T11:25:00Z,Network,blocked_connection,service-account,SRV-008,192.0.2.50,Outbound connection blocked by policy
+E108,2026-10-10T11:32:00Z,Endpoint,malware_scan_clean,service-account,SRV-008,192.0.2.50,Scheduled endpoint scan reported no findings
